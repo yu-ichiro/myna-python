@@ -1,5 +1,8 @@
 [tool.poetry]
-name = "myna"
+name = "myna-python"
+packages = [
+    { include = "myna" }
+]
 version = "0.1.0"
 description = "cli-tool/library for interacting with the 個人番号カード"
 authors = ["Yuichiro Smith <contact@yu-smith.com>"]
